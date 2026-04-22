@@ -112,7 +112,7 @@ function login_page() {
 
  
     if (attempt_counter >= 3) {
-        alert("Uh-oh! Maximum attempts reached. Button locked!");
+        alert("Uh-oh! You reached the maximum attempts. Try again later!");
         document.getElementById("loginBtn").disabled = true; 
         document.getElementById("loginBtn").style.backgroundColor = "gray";
     }
