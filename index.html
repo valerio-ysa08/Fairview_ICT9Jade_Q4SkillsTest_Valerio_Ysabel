@@ -12,7 +12,6 @@ body {
   background-image: url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/74145533-e3b6-4ee6-b5fb-44245525a230/DSC06502-HDR.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .container {
@@ -113,7 +112,7 @@ function login_page() {
 
  
     if (attempt_counter >= 3) {
-        alert("Maximum attempts reached. Button locked!");
+        alert("Uh-oh! Maximum attempts reached. Button locked!");
         document.getElementById("loginBtn").disabled = true; 
         document.getElementById("loginBtn").style.backgroundColor = "gray";
     }
